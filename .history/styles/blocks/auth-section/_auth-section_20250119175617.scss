@@ -1,0 +1,10 @@
+.auth-section{
+    display: block;
+    &__inner{
+        display: grid;
+        justify-content: center;
+    }
+    &.hidden{
+        display: none;
+    }
+}

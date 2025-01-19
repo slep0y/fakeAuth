@@ -1,0 +1,8 @@
+.form{
+    max-width: 640px;
+    display: grid;
+    border: 1px solid var(--grey_lite);
+    &.hidden{
+        display: none;
+    }
+}

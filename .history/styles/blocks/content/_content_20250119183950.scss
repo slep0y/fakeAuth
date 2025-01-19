@@ -1,0 +1,10 @@
+.content{
+    &.hidden{
+        display: none;
+    }
+    &__header{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+}

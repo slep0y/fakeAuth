@@ -1,0 +1,10 @@
+.form{
+    max-width: 640px;
+    display: grid;
+    border: 1px solid var(--grey_lite);
+    padding: 20px;
+    border-radius: 8px;
+    &.hidden{
+        display: none;
+    }
+}

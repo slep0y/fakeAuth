@@ -1,0 +1,13 @@
+.content{
+    &.hidden{
+        display: none;
+    }
+    &__header{
+        display: flex;
+        align-items: baseline;
+        gap: 16px;
+    }
+    &__title{
+        font-weight: 400;
+    }
+}

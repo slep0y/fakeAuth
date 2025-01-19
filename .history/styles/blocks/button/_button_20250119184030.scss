@@ -1,0 +1,19 @@
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    width: fit-content;
+    white-space: nowrap;
+    padding: 8px;
+    border: 1px solid var(--grey_lite);
+    background-color: var(--grey_lite);
+    cursor: pointer;
+    &_wide{
+        width: 100%;
+    }
+    &_small{
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+}

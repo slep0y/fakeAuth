@@ -1,0 +1,140 @@
+:root {
+  --segoe:"Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  --grey_lite: #dedede;
+  --lite: #fafafa;
+  --blue_lite: #6699ff;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: var(--segoe);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+section {
+  padding-block: 2rem;
+}
+
+.page {
+  display: grid;
+  grid-auto-rows: min-content auto min-content;
+  background-color: var(--lite);
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+  max-width: 1140px;
+  padding-inline: 20px;
+}
+
+.header {
+  background-color: #eee;
+}
+
+.footer {
+  background-color: #eee;
+}
+
+.auth-section {
+  display: block;
+}
+.auth-section__inner {
+  display: grid;
+  justify-content: center;
+}
+.auth-section.hidden {
+  display: none;
+}
+
+.content.hidden {
+  display: none;
+}
+.content__header {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+.content__title {
+  font-weight: 400;
+}
+
+.form {
+  max-width: 640px;
+  width: 100%;
+  display: grid;
+  gap: 16px;
+  border: 1px solid var(--grey_lite);
+  padding: 32px 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  grid-auto-rows: min-content;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.0666666667);
+}
+.form.hidden {
+  display: none;
+}
+.form__title {
+  margin: unset;
+  white-space: nowrap;
+  text-align: center;
+}
+.form__message {
+  margin: unset;
+  text-align: center;
+}
+
+.fieldgroup {
+  display: grid;
+  gap: 8px;
+}
+
+.controls {
+  display: grid;
+  gap: 8px;
+}
+
+.input {
+  border: 1px solid var(--grey_lite);
+  border-radius: 4px;
+  padding: 8px 16px;
+  background-color: #fff;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.input:focus-visible {
+  outline: 1px solid var(--blue_lite);
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  width: fit-content;
+  white-space: nowrap;
+  padding: 8px;
+  border: 1px solid var(--grey_lite);
+  background-color: var(--grey_lite);
+  cursor: pointer;
+}
+.button:hover {
+  background-color: var(--blue_lite);
+  color: #fff;
+}
+.button_wide {
+  width: 100%;
+}
+.button_small {
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.userAuthorize {
+  font-weight: 700;
+}

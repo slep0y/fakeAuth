@@ -1,0 +1,16 @@
+:root{
+    --segoe:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --grey_lite #dedede;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: var(--segoe);
+}
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+section{
+    padding-block: 2rem;
+}

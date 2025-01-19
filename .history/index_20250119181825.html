@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./styles/special-style.css"> -->
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">header</header>
+    <main class="main">
+        <section class="auth-section hidden">
+            <div class="container">
+                <div class="auth-section__inner">
+                    <form action="*" class="form" id="authForm">
+                        <h3 class="form__title">Авторизация / регистрация</h3>
+                        <div class="fieldgroup">
+                            <input id="loginName" name="loginName" type="text" class="input" placeholder="Login">
+                            <input id="loginPass" name="loginPass" type="password" class="input" placeholder="Password">
+                        </div>
+                        <div class="controls">
+                            <button id="authButton" class="button">Авторизоваться</button>
+                            <button id="regButton" class="button">Зарегистрироваться</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="content hidden">
+            <div class="container">
+                <div class="content__inner">
+                    <button id="exitButton" class="button">Выйти из профиля</button>
+                    <h1>Приветствую</h1>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">footer</footer>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+.form{
+    max-width: 640px;
+    width: 100%;
+    display: grid;
+    gap: 16px;
+    border: 1px solid var(--grey_lite);
+    padding: 32px 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    grid-auto-rows: min-content;
+    box-shadow: 0 4px 8px #00000011;
+    &.hidden{
+        display: none;
+    }
+    &__title{
+        margin: unset;
+        white-space: nowrap;
+        text-align: center;
+    }
+    &__message{
+        margin: unset;
+        text-align: center;
+    }
+}

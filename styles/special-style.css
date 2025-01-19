@@ -1,0 +1,69 @@
+:root{
+    --light-red-special: rgb(255 150 150);
+    --light-blue-special: rgb(150 200 255);
+    --light-green-special: rgb(150 255 200);
+    --light-purple-special: rgb(255 100 255);
+    --light-orange-special: rgb(255 180 0);
+    --light-yel-green-special: rgb(155, 235, 50);
+    --light-grey-special: rgb(99, 97, 94);
+}
+*, *::before, *::after {
+    outline: 1px dashed color-mix(in lab, orange, white 20%);
+}
+h1{
+    background-color: color-mix(in lab, var(--light-red-special), white 50%);
+}
+h2{
+    background-color: color-mix(in lab, var(--light-red-special), white 60%);
+}
+h3{
+    background-color: color-mix(in lab, var(--light-red-special), white 70%);
+}
+h4{
+    background-color: color-mix(in lab, var(--light-red-special), white 80%);
+}
+h5{
+    background-color: color-mix(in lab, var(--light-red-special), white 90%);
+}
+h6{
+    background-color: color-mix(in lab, var(--light-red-special), white 90%);
+}
+p{
+    background-color: color-mix(in lab, var(--light-blue-special), white 50%);
+}
+button, input[type="submit"]{
+    background-color: color-mix(in lab, var(--light-green-special), white 50%);
+    border: none;
+}
+a{
+    background-color: color-mix(in lab, var(--light-purple-special), white 50%);
+    text-decoration: none;
+    color: inherit;
+}
+span{
+    background-color: color-mix(in lab, var(--light-orange-special), white 50%);
+}
+label{
+    background-color: color-mix(in lab, var(--light-blue-special), white 70%);
+}
+input{
+    background-color: color-mix(in lab, var(--light-purple-special), white 80%);
+    border: 1px solid #000;
+}
+form{
+    background-color: color-mix(in lab, var(--light-orange-special), white 80%);
+}
+ul,
+ol {
+    background-color: color-mix(in lab, var(--light-green-special), white 70%);
+}
+li {
+    background-color: color-mix(
+        in lab,
+        var(--light-yel-green-special),
+        white 70%
+    );
+}
+img {
+    background-color: color-mix(in lab, var(--light-grey-special), white 70%);
+}
